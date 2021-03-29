@@ -1,4 +1,5 @@
-const gql = require('graphql-tag');
+const { gql } = require('apollo-server')
+/* const gql = require('graphql-tag'); */
 
 module.exports = gql`
   type Post {
